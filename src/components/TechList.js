@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import TechItem from './TechItem';
 
 class TechList extends Component {
+
   state = {
     techs: ["Node.js", "ReactJS", "React Native"],
     newTech: "",
